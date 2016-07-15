@@ -3,9 +3,13 @@ Simulates different types of pendulum using OpenGL
 
 1. Uses OpenGL (C++) to simulate different types of pendulum.
 2. The different pendulums simulated are :
+
       a) Damped pendulum
+
       b) Circular pendulum
+      
       c) Seconds pendulum
+      
       d) Spherical pendulum
 
 SIMPLE PENDULUM :
@@ -22,7 +26,8 @@ Damping pendulum is similar to simple pendulum but, its amplitude keeps reducing
             
                       (d^2 θ)/〖dt〗^2 +αdθ/mdt+(g sin⁡θ)/l=0
 
-3. It uses Runge Kutta Method of 4th order to carry out numerical integration.
+
+3.It uses Runge Kutta Method of 4th order to carry out numerical integration.
 
 Runge–Kutta family is generally referred to as "RK4", "classical Runge–Kutta method" or simply as "the Runge–Kutta method".
 Let an initial value problem be specified as follows.
